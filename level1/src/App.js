@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Jsx from './components/Leve1_JSXpropsAndState/Jsx';
+import UserCard, { ConditionalRenderingWithProps, DefaultProps, FunctionAsProps, GreetUser, IdentityCard, IdRenderer, PropDestructuring, Title, TitleForker, UserCardWithPropsDestructed } from './components/Leve1_JSXpropsAndState/Props';
+
+export function handleClick(){
+  alert('Button has been clicked')
+};
+
+export function greetUser(){
+  alert('Hello user !')
+}
 
 function App() {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+    <div>
+     
+
+       <FunctionAsProps onclick={handleClick}/>
+       <GreetUser greetuser={greetUser}/>
+       
     </div>
   );
 }
