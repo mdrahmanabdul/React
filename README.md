@@ -1,4 +1,4 @@
-**Goals : **
+**Goals :**
 1. Be able to build large scale and maintainable applications
 2. Architect modular, reusable components
 3. Optimizing performance
@@ -7,14 +7,14 @@
 6. Write unit/integration tests
 7. Be able to perform code suggestions
 
-**Level 1 : Core React **
+**Level 1 : Core React**
 1. JSX, Components, Props, State
 2. Functional v/s Class components
 3. useState, useEffect, useRef, useContext
 4. Conditional Rendering, Lists & Keys
 5. Forms, Controlled/Uncontrolled components
 
-**Level 2 : Advanced React **
+**Level 2 : Advanced React**
 1. Custom Hooks
 2. useMemo, useCallback, useReducer
 3. Context API v/s Redux Toolkit
